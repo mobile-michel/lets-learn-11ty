@@ -1,6 +1,6 @@
 <!-- _includes/_navigation.njk-->
 <nav>
     {%- for item in collections.page -%}
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        <a href="{{ item.url | url }}">{{ item.data.title }}</a>
     {%- endfor -%}
 </nav>

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy --pathprefix='lets-learn-11ty'"
   },
   "keywords": [],
   "author": "",
